@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg , #610C9F ,#940B92);
+    padding: 10px;
+}
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background-color: white;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.todo-app h2{
+    color: #940B92;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-size: 1.6rem;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: bold;
+}
+.btn-add{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background-color: #FFB000;
+    color: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight:500;
+}
+.btn-add:hover{
+    opacity: 0.;
+}
+button:hover{
+    opacity: 0.5;
+}
+.todo-container{
+    overflow-y: scroll;
+    max-height: 150px;
+}
+.todo-item-container{
+    display: flex;
+    margin-bottom: 12px;
+    background: #ffd3fe;
+    padding: 10px 30px;
+    border-radius: 40px;
+}
+#todo-text{
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: center;
+}
+#edit-button ,
+#delete-button{
+    border: none;
+    background-color: transparent;
+}
+.todo-container img{
+    width: 100%;
+    height: 1.5vw;
+    padding: 0 10px 0 2px ;
+    align-items: center;
+}
